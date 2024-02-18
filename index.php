@@ -34,7 +34,7 @@
                         <td>%s</td>
                         <td>%s</td>
                         <td>
-                            <a href='#' class='btn btn-outline-info'>Cores Associadas</a>
+                            <a href='coresUsuario.php?id=$user->id' class='btn btn-outline-info'>Cores Associadas</a>
                             <a href='editarUsuario.php?id=$user->id' class='btn btn-outline-warning'>Editar</a>
                             <a href='excluirUsuario.php?id=$user->id' class='btn btn-outline-danger'>Excluir</a>
                         </td>
